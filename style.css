@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#logo {
+  height: 81.758133px;
+  width: 206px;
+  left: 20px;
+  top: 0px;
+  border-radius: 0px;
+}
+nav {
+  background: #fff;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+#navbarNav ul li a {
+  color: black;
+}
+#navbarNav ul li #home {
+  color: #fa4a0c;
+}
+#navbarNav ul li {
+  margin-left: 70px;
+}
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler span {
+  opacity: 60%;
+}
+#navbarNav ul li a:hover {
+  color: #fa4a0c;
+  transition: 0.5s;
+}
+.head-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background1.jpg);
+  background-size: cover;
+  height: 800px;
+  background-attachment: fixed;
+  width: 100%;
+  left: 0px;
+}
+#text-container{
+  margin-top: 100px;
+  color: white;
+}
+
+#text-container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+#text-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+#text-container h3 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#text-container button {
+  height: 60px;
+  font-weight: 700;
+  width: 220px;
+  font-size: 24px;
+  line-height: 36px;
+  left: 0px;
+  top: 0px;
+  border-radius: 30px;
+  padding: 16px, 0px, 16px, 0px;
+}
+#text-container #play {
+  background-color: #fa4a0c;
+}
+#text-container #app {
+  border: 1px solid white;
+  color: white;
+}
+.mobile {
+  margin-top: -160px;
+  text-align: center;
+}
+.horizontal {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+.how {
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  margin-top: 40px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.102px;
+  text-align: center;
+}
+.create-account {
+  margin-top: 40px;
+}
+.create-account #text {
+  padding-right: 10%;
+}
+.create-account h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #fa4a0c;
+  margin-top: 25%;
+}
+.create-account h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+  color: #252b42;
+  
+}
+.create-account #account {
+  padding-right: 10%;
+}
+.create-account h3 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+}
+.create-account #img5 {
+  text-align: left;
+  filter: drop-shadow(40px 40px 30px #e9e5e5);
+}
+.explore h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #fa4a0c;
+  margin-top: 25%;
+}
+.explore h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+  color: #252b42;
+}
+.explore h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+}
+.explore #text {
+  padding-left: 15%;
+}
+.explore #img4 {
+  text-align: left;
+  filter: drop-shadow(40px 40px 30px #e9e5e5);
+}
+.checkout #text {
+  padding-right: 10%;
+}
+.checkout h1 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #fa4a0c;
+  margin-top: 25%;
+}
+.checkout h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+  color: #252b42;
+}
+.checkout h3 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  color: #737373;
+}
+.checkout #img3 {
+  text-align: left;
+  padding-bottom: 40px;
+  filter: drop-shadow(40px 40px 30px #e9e5e5);
+}
+section h2 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20x;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+section h3 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+}
+.down-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background22.png);
+  background-size: contain;
+  background-attachment: fixed;
+  height: 516px;
+  width: 100%;
+  left: 0px;
+}
+#text-section h1{
+  font-family: "Montserrat", sans-serif;
+  padding-top: 200px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.20000000298023224px;
+}
+#text-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+#text-section button {
+  color: white;
+  height: 50px;
+  font-weight: 700;
+  width: 150px;
+  font-size: 18px;
+  line-height: 10px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  padding: 16px, 0px, 16px, 0px;
+}
+#text-section #play {
+  background-color: #fa4a0c;
+}
+#text-section #app {
+  border: 1px solid white;
+}
+
+.footer #footer-logo{
+  height: 102px;
+  width: 246px;
+}
+.footer .logo{
+  text-align: center;
+}
+.footer .icons{
+  text-align: center;
+  margin-top: 8%;
+}
+.footer .copyright h2{
+  margin-top: 12%;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+.footer .fab{
+  color: #fa4a0c;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+.mind h2{
+  display: none;
+}
+
+/* Media */
+@media (max-width: 1199.98px) { 
+  .footer .copyright h2{
+    margin-top: 15%;
+  }
+  .footer .icons{
+    margin-top: 10%;
+  }
+
+}
+
+@media (max-width: 991.98px) { 
+  .create-account h1 {
+    margin-top: 5%;
+  }
+  .create-account{
+    margin-bottom: 5%;
+  }
+  .explore h1 {
+    margin-top: 5%;
+  }
+  .explore{
+    margin-bottom: 5%;
+  }
+  .checkout h1 {
+    margin-top: 5%;
+  }
+  .checkout{
+    margin-bottom: 5%;
+  }
+  .mobile{
+    margin-top: -130px;
+  }
+  .down-section{
+    padding: 0;
+    margin: 0;
+  }
+  .footer .icons{
+    margin-top: 13%;
+  }
+  .footer .copyright h2{
+    margin-top: 20%;
+    font-size: 11px;
+  }
+
+}
+@media (max-width: 767.98px) {
+  .mobile {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .head-section {
+    background: none;
+    background-color: #fafafa;
+    height: 600px;
+  }
+  #text-container{
+      margin-top: 40px;
+  }
+  #text-container h1{
+
+    font-size: 16px;
+    color: #737373;
+  }
+  #text-container h2 {   
+    font-size: 34px;
+    line-height: 43px;
+    color: #252b42;
+  }
+  #text-container h3 {
+        color: #737373;
+        font-size: 24px;
+  }
+  #text-container button {
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: #fa4a0c;
+  }
+  #text-container #play {
+    background-color: #fa4a0c;
+  }
+  #text-container #app {
+    margin-top: 20px;
+    color: #fa4a0c;
+    border: 1px solid #fa4a0c;
+  }
+  .horizontal {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 60px;
+  }
+  .create-account h1 {
+    text-align: center;
+  }
+  .create-account h2 {
+    margin:15px;
+    padding:10px 0px 10px 0px;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+  }
+  .create-account h3 {
+    text-align: center;
+    margin:25px 25px 0px 25px;
+    padding:25px 25px 0px 25px;
+  }
+  .explore #text{
+      padding: 0;
+  }
+  .explore h1 {
+    text-align: center;
+    padding: 0;
+  }
+  .explore h2{
+    font-size: 40px;
+    font-style: normal;
+    margin:15px;
+    padding:15px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+  .explore h3{
+    margin:35px 35px 0px 35px;
+    padding:25px 25px 0px 25px;
+    text-align: center;
+  }
+
+  .checkout h1 {
+    text-align: center;
+    padding: 0;
+  }
+  .checkout h2{
+    font-size: 40px;
+    font-style: normal;
+    margin:15px;
+    padding:15px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+  .checkout h3{
+    margin:35px 35px 0px 35px;
+    padding:25px 25px 0px 25px;
+    text-align: center;
+  }
+  .down-section{
+    background: #252B42;
+    /* height: 500px; */
+    margin: 0;
+    
+  }
+  #text-section{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #text-section h2{
+    color: #BDBDBD;
+    padding: 5px;
+    margin: 30px;
+  }
+  #text-section h1{
+    padding-top: 50px;
+  }
+  .create-account #account {
+    padding-right: 0;
+  }
+  .checkout #text {
+    padding-right: 0;
+}
+.footer .logo{
+  display: none;
+}
+.footer .copyright{
+  display: none;
+}
+.footer .icons{
+  margin-top: 5%;
+  padding-bottom: 15px;
+}
+.mind h2{
+  font-family: "Poppins", sans-serif;
+  display: block;
+  color: #5C5C5C;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: .1px;
+}
+}
+
+
